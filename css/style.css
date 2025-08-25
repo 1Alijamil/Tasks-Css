@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Ali;
+    src: url(../fonts/Elgharib-FS-Africa-V2.ttf);
+}
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+header{
+    width: 100%;
+    text-align: left;
+    background-image: linear-gradient(to right, #d86831, #361d1d, #eb7e25);
+
+}
+nav{
+  display: inline;
+  padding:10px;
+  text-align: left;
+justify-content: space-between;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color:wheat;
+
+}
+.logo h1{
+    text-align: right;
+    margin-right: 20px;
+    font-family: Ali;
+}
+ul{
+    list-style: none;
+}
+header ul li{
+    display: inline;
+    /* padding: 20px; */
+    margin: 0 15px;
+}
+main div{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-image: linear-gradient(to right, #1a0f0f, #492b0c);
+    
+}
+.text-2{
+        background-image: linear-gradient(to left, #1a0f0f, #492b0c);
+
+}
+
+img{
+  
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid white;
+        
+}
+
+footer{
+    color: white;
+      padding: 20px 0;
+      text-align: center;
+      background-color: #1a0f0f;
+
+}
