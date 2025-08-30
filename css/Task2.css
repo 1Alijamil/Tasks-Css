@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  color: wheat;
+}
+
+section{
+  margin: 20px;
+  background-image: linear-gradient(rgb(43, 40, 46),rgb(61, 70, 121));
+  padding: 30px;
+  border-radius: 10px;
+  margin: 35px;
+}
+.div1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+
+}
+.div2{
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+
+}
+
+.sec2{
+    background-image: linear-gradient(rgb(126, 29, 126),rgb(67, 9, 202));
+  
+}
+
+footer{
+background-color: black;
+color: white;
+text-align: center;
+padding:10px ;
+  }
+  .div1 img{
+    
+    align-items: center;
+    justify-content: space-between;
+    display: inline;
+  }
+  .div2 ul{
+    display: grid;   
+    width: 100%;
+    place-items: center;  
+     
+  }
+  img{
+    border-radius: 20px;
+  }
+
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1d1c1c;
+  padding: 40px 20px;
+  
+}
+header .header-btn {
+  display: flex;
+  gap: 10px;
+}
+header .header-btn button {
+  padding: 10px 20px;
+  background-color: #2c2ce5;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  
+}
+header .header-btn button:last-child {
+  background-color: white;
+  color: #2c2ce5;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+nav a{
+  text-decoration: none;
+}
+Header .logo {
+  font-family: "Satisfy", "Allura", cursive;
+  font-size: 40px;
+}
+main {
+  padding: 50px;
+}
