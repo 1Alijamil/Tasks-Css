@@ -1,7 +1,6 @@
       * {
           margin: 0px;
 
-
       }
 
       body {
@@ -45,4 +44,29 @@
           border-radius: 5px;
           border: 1px solid #ccc;
           width: 100%;
+          
       }
+       input:hover{
+       border: #77b5e7 2px solid;
+       
+       }
+        input:active{
+        background-color: #b47de7;
+        
+       }
+      
+       input:valid {
+        border-color: green;
+       
+      }
+      input:invalid{
+        border-color: red;
+        
+      }
+/* 
+      input:hover::placeholder{
+    padding-left: 20px;
+    transition: .4s all;
+        } */
+      
+
